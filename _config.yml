@@ -1,6 +1,6 @@
 # Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+## Docs: https://hexo.io/docs/configuration.html 
+## Source: https://github.com/hexojs/hexo/ 
 
 # Site
 title: Hexo
@@ -9,11 +9,11 @@ description: ''
 keywords:
 author: John Doe
 language: en
-timezone: ''
+timezone: America/New_York
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project' 
+url: https://aosoogpt.github.io 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -70,13 +70,13 @@ category_map:
 tag_map:
 
 # Metadata elements
-## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta 
+meta_generator: false
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+## http://momentjs.com/docs/#/displaying/format/ 
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
@@ -94,14 +94,13 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
+## Plugins: https://hexo.io/plugins/ 
+## Themes: https://hexo.io/themes/ 
 theme: butterfly
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-ddeploy:
-type: git
-repo: https://github.com/aosoogpt/aosoogpt.github.io.git
-branch: main
-
+## Docs: https://hexo.io/docs/one-command-deployment 
+deploy:
+  type: git
+  repository: https://github.com/aosoogpt/aosoogpt.github.io.git 
+  branch: main
